@@ -320,14 +320,14 @@ $(document).ready(function () {
         window.open('https://www.snuh.org/main.do')
     });
     $('#hospafter').find('.go_page').click(function () {
-        window.open("hos/html/index.html");
+        window.open("https://kimjoochan.github.io/academy2hos/html/");
     });
     //리뉴얼후 용성토건 참고사이트
     $('#youngsunafter').find('.ref_1').click(function () {
         window.open('http://deterrace.com/');
     });
     $('#youngsunafter').find('.go_page').click(function () {
-        window.open("http://white0240.dothome.co.kr/");
+        alert("만료")
     });
     //리뉴얼후 경희실용음악학원 참고사이트
     $('#musicafter').find('.ref_1').click(function () {
@@ -336,11 +336,11 @@ $(document).ready(function () {
     $('#musicafter').find('.ref_2').click(function () {
         window.open('http://www.jam.or.kr/wpage/index.php');
     }); $('#musicafter').find('.go_page').click(function () {
-        window.open("music/index/index.html");
+        window.open("https://kimjoochan.github.io/academy2music/html/");
     });
     //리뉴얼후 쿠쿠전자 참고사이트
     $('#cocoafter').find('.go_page').click(function () {
-        window.open("coco/html/index.html");
+window.open("https://kimjoochan.github.io/academy1coco/html/");
     });
     //리뉴얼전에서 색상표에 hover시 나타나는 색상박스 
     //병원
