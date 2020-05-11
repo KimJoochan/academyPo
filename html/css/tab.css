@@ -276,7 +276,7 @@
         text-align: center;
         float: left;
         font-weight: 900;
-        margin-top: 25%;
+        margin-top: 15%;
         font-size: 50px;
         color: #ff2400;
     }
@@ -295,7 +295,7 @@
         background-size: cover;
     }
     #tab_profile > .tab_title {
-        margin-top: 30px;
+/*        margin-top: 30px;*/
     }
     #tab_profile_list {
         width: 40%;
@@ -324,6 +324,7 @@
         position: absolute;
         top: 0;
         left: 0;
+        display: none;
         background: url(../imgs/snowdo1.png);
         background-size: cover;
         animation-name: down;
@@ -341,7 +342,7 @@
         }
     }
     #tab_skill > .tab_title {
-        margin-top: 70px;
+        /*margin-top: 70px;*/
         float: left;
         color: #eaeaea;
     }
@@ -349,8 +350,8 @@
         width: 200px;
         height: auto;
         position: absolute;
-        top: 170px;
-        left: 0;
+        top: 40%;
+        left: 50px;
     }
     #prog_select > li.tab_on {
         color: #ff2400;
@@ -411,7 +412,7 @@
     #tab_renewal > .tab_title {
         width: 100%;
         text-align: center;
-        margin-top: 30px;
+/*        margin-top: 30px;*/
     }
     #tab_mask {
         width: 64%;
@@ -419,7 +420,7 @@
         float: left;
         background-color: black;
         margin-left: 50%;
-        margin-top: 30px;
+        margin-top: 80px;
         overflow: hidden;
         transform: translateX(-50%);
     }

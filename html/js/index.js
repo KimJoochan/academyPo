@@ -1,15 +1,12 @@
-$(document).ready(function () {
-    var agent = navigator.userAgent.toLowerCase();
+﻿$(document).ready(function () {
+ /*   var agent = navigator.userAgent.toLowerCase();
 
     if (agent.indexOf("chrome") != -1) {
         alert('현 페이지는 크롬에 최적화 되어있습니다. 현 브라우저는 크롬입니다.');
     } else {
         alert('이 홈페이지는 크롬에 최적화 되어있습니다.');
     }
-
-
-
-
+*/
     var alw = $('#all_wrap>li').width();
     var i = 0;
     var j;
@@ -301,7 +298,7 @@ $(document).ready(function () {
     });
     //리뉴얼전 용성토건
     $('#youngsun').find('.go_before').click(function () {
-        window.open('http://yskor.com/');
+        alert("만료")
     });
     //리뉴얼전 경희실용음악
     $('#music').find('.go_before').click(function () {
