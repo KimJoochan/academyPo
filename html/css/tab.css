@@ -1,13 +1,17 @@
 @charset 'utf-8';
+
 @media all and (max-width:1199px) and (min-width:360px) {
+
     html,
     body {
         width: 100%;
         height: 100%;
     }
+
     #all_mask {
         display: none;
     }
+
     /*테블릿에서 퀵 contact me를 보이게 할 버튼*/
     #tab_quick_but {
         width: 50px;
@@ -21,11 +25,13 @@
         z-index: 9;
         background-color: #7bb3ff;
     }
+
     #tab_quick_but.half_on {
         background-color: #f47bff;
         width: 50px;
         height: 50px;
     }
+
     #tab_quick_closed {
         width: 50px;
         height: 50px;
@@ -42,6 +48,7 @@
         display: none;
         background-color: #ff7b7b;
     }
+
     #tab_quick_explain {
         width: 100vw;
         height: 100vmax;
@@ -51,27 +58,32 @@
         z-index: 99;
         background-color: rgba(3, 3, 3, 0.75);
     }
+
     #tab_quick_mask {
         width: 100%;
         height: 100%;
         float: left;
     }
+
     #tab_quick_wrap {
         width: 300%;
         height: auto;
         float: left;
         opacity: 0.7;
     }
+
     #tab_quick_wrap > li {
         width: 33.3%;
         height: auto;
         float: left;
     }
+
     #tab_quick_wrap > li > img {
         width: 100%;
         height: auto;
         float: left;
     }
+
     #tab_quick_close {
         position: absolute;
         top: 20px;
@@ -84,6 +96,7 @@
         text-align: center;
         line-height: 20px;
     }
+
     /*테블릿 퀵설명 칭*/
     #tab_quick {
         width: 100vw;
@@ -94,6 +107,7 @@
         left: -100%;
         background: linear-gradient(to right, #ffcaf8, #dfcaff);
     }
+
     #tab_qui_title {
         width: 100%;
         text-align: center;
@@ -102,6 +116,7 @@
         font-size: 20px;
         margin-top: 1.875%;
     }
+
     #tab_thank {
         width: auto;
         height: 30px;
@@ -111,12 +126,14 @@
         font-size: 16px;
         margin-left: 22.5%;
     }
+
     #tab_type_name {
         width: 100%;
         height: 30px;
         margin-top: 3.75%;
         float: left;
     }
+
     #tab_type_name > span {
         display: block;
         width: auto;
@@ -126,11 +143,13 @@
         margin-left: 22.5%;
         font-size: 16px;
     }
+
     #tab_type_number {
         width: 100%;
         height: auto;
         float: left;
     }
+
     #tab_type_number > span {
         display: block;
         width: auto;
@@ -140,6 +159,7 @@
         margin-left: 22.5%;
         font-size: 16px;
     }
+
     #tab_type_number select {
         display: block;
         width: auto;
@@ -147,6 +167,7 @@
         float: left;
         margin-top: 1.875%;
     }
+
     #tab_type_number b {
         width: auto;
         height: 30px;
@@ -156,12 +177,14 @@
         margin-top: 1.875%;
 
     }
+
     #tab_type_number input {
         width: auto;
         height: 30px;
         float: left;
         margin-top: 1.875%;
     }
+
     #tab_quick textarea {
         display: block;
         width: 60%;
@@ -170,6 +193,7 @@
         margin-top: 7.5%;
         margin-left: 20%;
     }
+
     #tab_submit {
         width: 60px;
         height: 20px;
@@ -178,12 +202,14 @@
         right: 20px;
         z-index: 9;
     }
+
     /*테블릿 퀵설명 끝*/
     #tab_display {
         width: 100%;
         height: 100%;
         float: left;
     }
+
     #tab_head {
         width: 100%;
         height: 70px;
@@ -192,6 +218,7 @@
         left: 0;
         z-index: 33;
     }
+
     #tab_head > nav {
         width: 50px;
         height: 50px;
@@ -201,6 +228,7 @@
         position: relative;
         z-index: 999;
     }
+
     #nav_mark {
         width: 100%;
         height: 100%;
@@ -208,6 +236,7 @@
         position: relative;
         cursor: pointer;
     }
+
     #nav_mark > li {
         width: 100%;
         height: 10px;
@@ -216,18 +245,22 @@
         top: 0;
         background-color: #333;
     }
+
     #nav_mark > li:nth-child(2) {
         top: 20px;
     }
+
     #nav_mark > li:last-child {
         top: 40px;
     }
+
     #tab_nav {
         width: 100%;
         height: auto;
         position: fixed;
         display: none;
     }
+
     #tab_nav > li {
         width: 100%;
         height: 70px;
@@ -236,42 +269,49 @@
         background-color: white;
         text-align: center;
     }
+
     #tab_nav > li > a {
         display: block;
         width: 100%;
         height: 100%;
         font-size: 30px;
     }
+
     #scroll_bar {
         width: 102vw;
         height: 100vmax;
         overflow-y: scroll;
     }
+
     #scrol_mask {
         width: 100%;
         height: 100vmax;
         overflow: hidden;
         box-sizing: border-box;
     }
+
     #tab_wrap {
         width: 100vw;
-        height: 700%;
+        height: 800%;
         float: left;
         position: relative;
         top: 0;
         left: 0;
     }
+
     #tab_wrap > li {
         width: 100vw;
-        height: 14.28%;
+        height: 12.5%;
         float: left;
     }
+
     /*테블릿 첫번째 화면 홈*/
     #tab_home {
         background: url(../imgs/display_tab_1.jpg) no-repeat center center;
         background-size: cover;
     }
-    .tab_title {
+
+    #tab_wrap .tab_title {
         width: 100%;
         text-align: center;
         float: left;
@@ -280,6 +320,7 @@
         font-size: 50px;
         color: #ff2400;
     }
+
     .tab_title > span {
         display: block;
         width: 100%;
@@ -289,21 +330,25 @@
         margin-top: 30px;
         color: #ff5540;
     }
+
     /*테블릿 두번째 화면*/
     #tab_profile {
         background: url(../imgs/display_tab_2.jpg) no-repeat center center;
         background-size: cover;
     }
+
     #tab_profile > .tab_title {
-/*        margin-top: 30px;*/
+        /*        margin-top: 30px;*/
     }
+
     #tab_profile_list {
-        width: 40%;
+        width: auto;
         float: left;
         margin-left: 30%;
         height: auto;
         margin-top: 20%;
     }
+
     #tab_profile_list > li {
         width: 100%;
         text-align: left;
@@ -311,6 +356,7 @@
         font-size: 30px;
         margin-bottom: 30px;
     }
+
     /*테블릿 세번째 화면*/
     #tab_skill {
         position: relative;
@@ -318,6 +364,7 @@
         background-size: cover;
         overflow: hidden;
     }
+
     #tab_snow {
         width: 100%;
         height: 100%;
@@ -333,19 +380,23 @@
         animation-iteration-count: infinite;
         animation-timing-function: ease-in-out;
     }
+
     @keyframes down {
         from {
             top: 0;
         }
+
         to {
             top: -60%;
         }
     }
+
     #tab_skill > .tab_title {
         /*margin-top: 70px;*/
         float: left;
         color: #eaeaea;
     }
+
     #prog_select {
         width: 200px;
         height: auto;
@@ -353,19 +404,22 @@
         top: 40%;
         left: 50px;
     }
+
     #prog_select > li.tab_on {
         color: #ff2400;
     }
+
     #prog_select > li {
         width: 100%;
         float: left;
         line-height: 30px;
-        font-size: 20px;
+        font-size: 26px;
         font-weight: 100;
         margin-bottom: 15px;
         cursor: pointer;
         color: #eaeaea;
     }
+
     #prog {
         width: 100%;
         float: left;
@@ -375,19 +429,22 @@
         font-weight: 100;
         color: #eaeaea;
     }
+
     #tab_prog_chart {
         width: 33.3%;
         height: auto;
         float: left;
         margin-left: 33%;
-        margin-top: 30px;
+        margin-top: 100px;
         position: relative;
     }
+
     #tab_prog_chart > img {
         width: 100%;
         height: auto;
         float: left;
     }
+
     .counter {
         position: absolute;
         top: 50%;
@@ -396,6 +453,7 @@
         font-size: 80px;
         color: #fff;
     }
+
     #percent {
         position: absolute;
         top: 50%;
@@ -403,17 +461,20 @@
         transform: translate(50%, -50%);
         font-size: 50px;
     }
-    /*테블릿 네번째 화면*/
+
+    /*테블릿 네번째 화면 리뉴얼*/
     #tab_renewal {
         position: relative;
         background: url(../imgs/display_tab_4.jpg) no-repeat center center;
         background-size: cover;
     }
+
     #tab_renewal > .tab_title {
         width: 100%;
         text-align: center;
-/*        margin-top: 30px;*/
+        margin-top: 15%;
     }
+
     #tab_mask {
         width: 64%;
         height: auto;
@@ -424,30 +485,36 @@
         overflow: hidden;
         transform: translateX(-50%);
     }
+
     #tab_img_wrap {
         width: 600%;
         height: auto;
         float: left;
     }
+
     #tab_img_wrap > li {
         width: 25%;
         height: auto;
         float: left;
     }
+
     #tab_img_wrap > li > img {
         width: 100%;
         height: auto;
         float: left;
     }
-    /*테블릿 다섯번째 화면*/
+
+    /*테블릿 다섯번째 화면 자격증*/
     #tab_lincense {
         position: relative;
     }
+
     #tab_lincense > .tab_title {
         width: 100%;
         text-align: center;
         margin-top: 70px;
     }
+
     #tab_lin_name {
         width: 100%;
         height: auto;
@@ -455,6 +522,7 @@
         margin-top: 30px;
         margin-bottom: 30px;
     }
+
     #tab_lin_name > li {
         width: 45%;
         text-align: right;
@@ -462,30 +530,81 @@
         font-size: 20px;
         margin-right: 5%;
     }
+
     #tab_lin_name > li:nth-child(2) {
         text-align: left;
         float: left;
         margin-left: 5%;
         margin-right: 0;
     }
+
     #tab_lin_pic {
         width: 100%;
-        height: 70vh;
+        height: 77vh;
         float: left;
         background: url(../imgs/display_5_1.png) no-repeat center center;
         background-size: cover;
     }
-    /*테블릿 여섯번째 화면*/
+
+    /*테블릿 수상*/
+    #tab_reward {
+        background: url(../imgs/lawn.jpg) no-repeat center center;
+        background-size: cover;
+    }
+
+    #tab_list_rew {
+        width: 95%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 280px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    #tab_list_rew > li {
+        flex-basis: 280px;
+        height: 360px;
+        background-color: #efefef;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 50px;
+        box-shadow: 1px 1px 3px #333;
+    }
+
+    #tab_list_rew > li > h2 {
+        font-size: 20px;
+        font-weight: 300;
+    }
+    #tab_list_rew > li > h2.cap{
+        font-weight: 600;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    #tab_list_rew > li > img {
+        width: 50%;
+        height: auto;
+        position: absolute;
+        top: -30%;
+    }
+
+    /*테블릿 슬로건 화면*/
     #tab_slogan {
         background: url(../imgs/display_tab_6.jpg) no-repeat center center;
         background-size: cover;
         position: relative;
     }
+
     #tab_slogan > .tab_title {
         width: 100%;
         text-align: center;
         margin-top: 70px;
     }
+
     #tab_slo {
         width: 100%;
         text-align: center;
@@ -494,6 +613,7 @@
         font-size: 30px;
         margin-bottom: 30px;
     }
+
     #tab_line {
         width: 50px;
         height: 5px;
@@ -501,6 +621,7 @@
         margin-left: 50%;
         background-color: pink;
     }
+
     #tab_slo_sub {
         width: 100%;
         text-align: center;
@@ -508,25 +629,30 @@
         float: left;
         font-size: 20px;
     }
+
     /*테블릿 마지막 화면*/
     #tab_contact {
         position: relative;
         overflow: hidden;
     }
+
     #tab_contact > .tab_title {
         width: 100%;
         text-align: center;
         margin-top: 70px;
     }
+
     #tab_cont_name {
         width: 100%;
         float: left;
         margin-top: 50px;
     }
+
     #tab_cont_name p {
         width: 100%;
         font-size: 20px;
     }
+
     #tab_cont_name > li {
         width: 45%;
         text-align: right;
@@ -534,23 +660,27 @@
         font-size: 20px;
         margin-right: 5%;
     }
+
     #tab_cont_name > li:nth-child(2) {
         text-align: left;
         float: left;
         margin-left: 5%;
         margin-right: 0;
     }
+
     #tab_cont_pic {
         width: 100%;
         height: auto;
         float: left;
         margin-top: 30px;
     }
+
     #tab_cont_pic > img {
         width: 100%;
         height: auto;
         float: left;
     }
+
     #tab_copyright {
         width: 100%;
         height: 60px;
@@ -560,6 +690,7 @@
         z-index: 999;
         background-color: rgba(255, 255, 255, 0.75);
     }
+
     #tab_copyright > address {
         display: block;
         width: 100%;
@@ -576,19 +707,23 @@
     #tab_profile_list {
         margin-top: 17%:
     }
+
     #tab_profile_list > li {
-        font-size: 25px;
+        font-size: 30px;
     }
+
     #tab_slo {
         margin-top: 20%;
     }
 }
 
 @media all and (max-width:950px) and (min-width:760px) {
+
     /*프로그램차트의 비율에 맞게 전환*/
     #tab_skill > .tab_title {
         margin-top: 30px;
     }
+
     #tab_prog_chart {
         width: 40%;
         margin-left: 30%;
@@ -597,8 +732,7 @@
 
 @media all and (max-width:950px) and (min-width:760px) {
     #tab_profile_list > li {
-        font-size: 22px;
-        font-weight: 600;
+        font-size: 30px;
     }
 }
 
@@ -607,51 +741,88 @@
         width: 103%;
         height: 103%;
     }
+
     #tab_wrap {
-        height: 600%;
+        height: 700%;
     }
+
     #tab_wrap > li {
-        height: 15%;
+        height: 12.5%;
     }
+
     /*자기소개 모바일일때*/
     #tab_profile {
         background: url(../imgs/display_mb_2.jpg) no-repeat center center;
         background-size: cover;
     }
+
     #tab_profile_list {
-        width: 50%;
+        width: auto;
         margin-left: 25%;
         margin-top: 40%;
     }
+
     #tab_profile_list > li {
-        font-size: 25px;
+        font-size: 30px;
     }
+
     /*프로그램 스킬 모바일일때*/
     .counter {
         font-size: 60px;
     }
+
     #percent {
         font-size: 40px;
     }
+
     /*자격증 모바일일때*/
     #tab_lin_pic {
         width: 100%;
-        height: 70vh;
+        height: 65vh;
         float: left;
         background: url(../imgs/display_5_1.png) no-repeat center center;
         background-size: cover;
     }
+
+    /*수상 모바일 일때*/
+    #tab_list_rew {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        height: 80%;
+    }
+
+    #tab_list_rew > li {
+        width: 80%;
+        flex-basis: 200px;
+    }
+
+    #tab_list_rew > li > h2.cap {
+        font-size: 28px;
+    }
+
+    #tab_list_rew > li > img {
+        width: 20%;
+        height: auto;
+        position: absolute;
+        left: 20px;
+        top: 35%;
+    }
+
     /*슬로건 모바일일때*/
     #tab_slogan {
         background: url(../imgs/display_mb_6.jpg) no-repeat center center;
         background-size: cover;
     }
+
     #tab_slo {
-        margin-top: 20%;
+        margin-top: 22%;
     }
+
     #tab_cont_name p {
         display: none;
     }
+
     #tab_cont_name > li {
         width: 120px;
         height: 120px;
@@ -660,6 +831,7 @@
         background-size: cover;
         cursor: pointer;
     }
+
     #tab_cont_name > li:nth-child(2) {
         background: url(../imgs/emailicon.png) no-repeat center center;
         background-size: cover;
@@ -668,17 +840,21 @@
 }
 
 @media all and (max-width:655px) {
+
     /*자기소개 모바일일때*/
     #tab_profile_list > li {
-        font-size: 23px;
+        font-size: 30px;
     }
+
     #tab_slo {
         font-size: 26px;
         margin-top: 22%;
     }
+
     #tab_slo_sub {
         font-size: 18px;
     }
+
     #tab_cont_name > li {
         margin-left: 20%;
     }
@@ -691,21 +867,26 @@
 }
 
 @media all and (max-width:600px) {
+
     /*자기소개 모바일일때*/
     #tab_profile_list > li {
-        font-size: 20px;
+        font-size: 30px;
     }
+
     #tab_slo {
         font-size: 26px;
         margin-top: 26%;
     }
+
     #tab_slo_sub {
         font-size: 16px;
     }
+
     /*프로그램 스킬*/
     .counter {
         font-size: 40px;
     }
+
     #percent {
         font-size: 30px;
     }
@@ -715,9 +896,11 @@
     #tab_lin_name > li {
         font-size: 16px;
     }
+
     #scroll_bar {
         width: 104%;
     }
+
     #percent {
         font-size: 22px;
     }
@@ -733,25 +916,30 @@
     #tab_renewal > .tab_title {
         font-size: 35px;
     }
+
     #tab_cont_name > li {
         margin-left: 15%;
     }
 }
+
 @media all and (max-width:430px) {
-    #tab_type_number select{
+    #tab_type_number select {
         width: 60%;
         margin-left: 20%;
     }
+
     #tab_type_number input {
         width: 60%;
         margin-left: 20%;
     }
-    #tab_type_number b{
+
+    #tab_type_number b {
         width: 60%;
         margin-left: 20%;
         text-align: center;
     }
 }
+
 @media all and (max-width:400px) {
     #tab_lin_name > li {
         font-size: 14px;

@@ -1,14 +1,17 @@
 @charset 'utf-8';
+
 @media all and (min-width:1200px) {
     #tab_display {
         display: none;
     }
+
     html,
     body {
         width: 100%;
         height: 100%;
         overflow: hidden;
     }
+
     /*pc퀵 메뉴 설명*/
     #quick_explain {
         width: 100vw;
@@ -21,12 +24,14 @@
         z-index: 99;
         background-color: rgba(0, 0, 0, 0.75);
     }
-    #quick_explain>.center_wrap {
+
+    #quick_explain > .center_wrap {
         width: 1200px;
         height: auto;
         margin: 0 auto;
         margin-top: 30px;
     }
+
     #center_mask {
         width: 100%;
         height: auto;
@@ -34,22 +39,26 @@
         overflow: hidden;
         position: relative;
     }
+
     #quick_ex {
         width: 300%;
         height: auto;
         float: left;
         position: relative;
     }
-    #quick_ex>li {
+
+    #quick_ex > li {
         width: 33.3%;
         height: auto;
         float: left;
     }
-    #quick_ex>li>img {
+
+    #quick_ex > li > img {
         width: 100%;
         height: auto;
         float: left;
     }
+
     #quci_buts {
         width: 75px;
         height: 15px;
@@ -58,7 +67,8 @@
         left: 50%;
         margin-left: -37.5px;
     }
-    #quci_buts>li {
+
+    #quci_buts > li {
         width: 15px;
         height: 15px;
         float: left;
@@ -67,9 +77,11 @@
         background-color: #eee;
         cursor: pointer;
     }
-    #quci_buts>li:nth-child(3) {
+
+    #quci_buts > li:nth-child(3) {
         margin-right: 0;
     }
+
     #quick_close {
         position: absolute;
         top: 15px;
@@ -82,6 +94,7 @@
         border: 0;
         cursor: pointer;
     }
+
     .quick_arrow {
         width: 60px;
         height: 60px;
@@ -96,15 +109,19 @@
         margin-top: -30px;
         cursor: pointer;
     }
+
     .quick_arrow.left {
         left: 15px;
     }
+
     .quick_arrow.right {
         right: 15px;
     }
-    #quci_buts>li.quci_on {
+
+    #quci_buts > li.quci_on {
         background-color: #ffc5cf;
     }
+
     /*pc 퀵 드래그할 버튼*/
     #quick_but {
         position: fixed;
@@ -118,6 +135,7 @@
         z-index: 9;
         cursor: pointer;
     }
+
     /*pc_퀙 드래그시 나타날 화면*/
     #pc_quick {
         width: 1200px;
@@ -131,9 +149,11 @@
         background: linear-gradient(to right, #dfcaff, #ffcaf8);
         display: none;
     }
-    #pc_quick>.center_wrap {
+
+    #pc_quick > .center_wrap {
         height: 720px;
     }
+
     #qui_title {
         width: 100%;
         height: 30px;
@@ -143,6 +163,7 @@
         font-size: 40px;
         margin-top: 50px;
     }
+
     #thank {
         width: 100%;
         text-align: left;
@@ -151,13 +172,15 @@
         font-size: 20px;
         margin-top: 30px;
     }
+
     #type_name {
         width: 100%;
         float: left;
         height: 30px;
         margin-top: 30px;
     }
-    #type_name>span {
+
+    #type_name > span {
         display: block;
         width: auto;
         height: 30px;
@@ -167,19 +190,22 @@
         margin-left: 246px;
         font-size: 30px;
     }
+
     #type_name input {
         height: 30px;
         width: auto;
         float: left;
         margin-left: 20px;
     }
+
     #type_number {
         width: 100%;
         height: 30px;
         float: left;
         margin-top: 30px;
     }
-    #type_number>span {
+
+    #type_number > span {
         display: block;
         width: auto;
         height: 30px;
@@ -189,6 +215,7 @@
         margin-left: 150px;
         font-size: 30px;
     }
+
     #type_number b {
         display: block;
         width: 15px;
@@ -197,6 +224,7 @@
         text-align: center;
         float: left;
     }
+
     #type_number select {
         display: block;
         width: auto;
@@ -204,6 +232,7 @@
         float: left;
         margin-left: 15px;
     }
+
     #type_number input {
         display: block;
         box-sizing: border-box;
@@ -212,6 +241,7 @@
         float: left;
         text-align: center;
     }
+
     textarea {
         width: 430px;
         height: 350px;
@@ -220,6 +250,7 @@
         margin-top: 30px;
         text-align: left;
     }
+
     #resume {
         width: 120px;
         height: 30px;
@@ -227,7 +258,8 @@
         bottom: 70px;
         right: 250px;
     }
-    #resume>a {
+
+    #resume > a {
         display: block;
         width: 100%;
         height: 100%;
@@ -235,6 +267,7 @@
         line-height: 30px;
         background-color: #eeefff;
     }
+
     #submit {
         width: 100px;
         height: 30px;
@@ -244,6 +277,7 @@
         text-align: center;
         background-color: #eeefff;
     }
+
     #close_but {
         position: absolute;
         top: 0;
@@ -259,6 +293,7 @@
         box-sizing: border-box;
         cursor: pointer;
     }
+
     /*퀙페이지끝*/
     .center_wrap {
         width: 1200px;
@@ -266,12 +301,14 @@
         margin: 0 auto;
         position: relative;
     }
+
     /*전체의 마스크영역,마우스휠을 위한 보여주는 영역*/
     #all_mask {
         width: 100%;
         height: 100%;
         float: left;
     }
+
     /*전체의 영역의 메뉴바*/
     nav {
         width: 100%;
@@ -283,15 +320,17 @@
         background-color: rgba(255, 255, 255, 0.75);
         transform: translateX(-50%);
     }
+
     #all_menu {
         width: 1200px;
         height: 70px;
         margin: 0 auto;
+        display: flex;
     }
-    #all_menu>li {
-        width: 14.285%;
+
+    #all_menu > li {
+        flex-grow: 1;
         height: 70px;
-        float: left;
         text-align: center;
         line-height: 70px;
         font-size: 20px;
@@ -299,30 +338,37 @@
         font-weight: 600;
         box-sizing: border-box;
     }
+
     .on {
         color: #ff2400;
     }
-    #all_menu>li:nth-child(3).on,
-    #all_menu>li:nth-child(4).on {
+
+    #all_menu > li:nth-child(3).on,
+    #all_menu > li:nth-child(4).on {
         color: #007eff;
     }
-    #all_menu>li:nth-child(6).on,#all_menu>li:nth-child(7).on {
+
+    #all_menu > li:nth-child(6).on,
+    #all_menu > li:nth-child(7).on {
         color: #fd9eb7;
     }
+
     /*전체의 영역의 와프,마우스휠로 인해 움직이는 전체 와프*/
     #all_wrap {
-        width: 700%;
+        width: 800%;
         height: 100%;
         float: left;
         position: relative;
     }
+
     /*전체의 와프의 세부적인 내용영역들*/
-    #all_wrap>li {
-        width: 14.285%;
+    #all_wrap > li {
+        width: 12.5%;
         height: 100%;
         float: left;
         overflow: hidden;
     }
+
     .title {
         width: 100%;
         text-align: center;
@@ -330,6 +376,7 @@
         color: #ff2400;
         position: relative;
     }
+
     .line {
         height: 2px;
         background-color: #ff2400;
@@ -338,21 +385,25 @@
         left: 50%;
         transform: translateX(-50%);
     }
+
     #home {
         background: url(../imgs/display_1.jpg) no-repeat left;
         background-size: cover;
         position: relative;
     }
+
     #home .title {
         font-size: 100px;
     }
-    #home_title>.title_sub {
+
+    #home_title > .title_sub {
         width: 100%;
         text-align: center;
         font-size: 36px;
         font-weight: 100;
         color: #ff7140;
     }
+
     /*첫번째화면*/
     #home_title {
         position: relative;
@@ -360,14 +411,17 @@
         transform: translateY(-50%);
         overflow: hidden;
     }
+
     /*첫번째화면의 타이틀의 언더라인*/
     #home .line {
         width: 500px;
     }
+
     .up_mvig {
         position: relative;
         top: 200px;
     }
+
     #leave1 {
         width: 100%;
         height: 100%;
@@ -378,6 +432,7 @@
         background-size: contain;
         overflow: hidden;
     }
+
     #leave2 {
         width: 100%;
         height: 100%;
@@ -388,34 +443,44 @@
         background-size: contain;
         overflow: hidden;
     }
+
     /*두번째화면*/
     #introduce {
         background: url(../imgs/display_2.jpg) no-repeat left;
         background-size: cover;
     }
+
+    #introduce .all_tie {
+        margin-top: 78px;
+    }
+
     .all_tie {
         margin-top: 78px;
         float: left;
         width: 100%;
     }
+
     /*두번째 화면의 타이틀의 언더라인*/
     #introduce .line {
         width: 400px;
     }
+
     #intro_list {
         width: 35%;
         float: left;
         margin-left: 32.5%;
-        margin-top: 70px;
+        margin-top: 120px;
     }
-    #intro_list>li {
+
+    #intro_list > li {
         width: 100%;
-        text-align: left;
+        text-align: center;
         font-size: 30px;
         float: left;
         line-height: 30px;
         margin-bottom: 40px;
     }
+
     .list_img {
         width: 30px;
         height: 30px;
@@ -424,19 +489,23 @@
         background: url(../imgs/list_leaf.png) no-repeat center center;
         background-size: cover;
     }
+
     /*세번째화면*/
     #skill {
         background: url(../imgs/display_3replace.jpg) no-repeat left;
         background-size: cover;
         position: relative;
     }
+
     #skill .title {
         color: #eaeaea;
     }
+
     #skill .line {
         width: 600px;
         background-color: #eaeaea;
     }
+
     #snowdown1 {
         width: 100%;
         height: 100%;
@@ -445,6 +514,7 @@
         left: 0;
         background: url(../imgs/snowdo1.png);
     }
+
     #snowdown2 {
         width: 100%;
         height: 100%;
@@ -453,6 +523,7 @@
         left: 0;
         background: url(../imgs/snowdo2.png);
     }
+
     /*스킬보여주는 영역*/
     #skill_mask {
         width: 100%;
@@ -460,6 +531,7 @@
         overflow: hidden;
         position: relative;
     }
+
     #skill_chart {
         width: 100%;
         height: 120px;
@@ -468,36 +540,44 @@
         position: absolute;
         bottom: 0;
     }
-    #skill_chart>li {
+
+    #skill_chart > li {
         width: 120px;
         height: 100%;
         float: left;
         margin-right: 76px;
         position: relative;
     }
-    #skill_chart>li:nth-child(1) {
+
+    #skill_chart > li:nth-child(1) {
         background: url(../imgs/ps.png) no-repeat;
         background-size: cover;
     }
-    #skill_chart>li:nth-child(2) {
+
+    #skill_chart > li:nth-child(2) {
         background: url(../imgs/ai.png) no-repeat;
         background-size: cover;
     }
-    #skill_chart>li:nth-child(3) {
+
+    #skill_chart > li:nth-child(3) {
         background: url(../imgs/html.png) no-repeat;
         background-size: cover;
     }
-    #skill_chart>li:nth-child(4) {
+
+    #skill_chart > li:nth-child(4) {
         background: url(../imgs/css.png) no-repeat;
         background-size: cover;
     }
-    #skill_chart>li:nth-child(5) {
+
+    #skill_chart > li:nth-child(5) {
         background: url(../imgs/jquery.png) no-repeat;
         background-size: cover;
     }
-    #skill_chart>li:last-child {
+
+    #skill_chart > li:last-child {
         margin-right: 0;
     }
+
     .graph {
         width: 100px;
         height: 400px;
@@ -505,12 +585,14 @@
         left: 50%;
         transform: translateX(-50%);
     }
-    .graph>img {
+
+    .graph > img {
         width: 100%;
         height: 100%;
         float: left;
         opacity: 0;
     }
+
     .reward {
         font-size: 36px;
         text-align: center;
@@ -519,40 +601,50 @@
         color: #eaeaea;
         margin-top: -440px;
     }
+
     #renewal {
         background: url(../imgs/display_4.jpg) no-repeat left;
         background-size: cover;
     }
-    #renewal>.title {
+
+    #renewal > .title {
         color: #eaeaea;
+        margin-top: 78px;
     }
+
     #renewal .line {
         width: 500px;
         background-color: #eaeaea;
     }
+
     #pc_mask {
         width: 75%;
         height: auto;
         float: left;
         margin-left: 12.5%;
         margin-top: 50px;
+        position: relative;
     }
+
     #renchart {
         width: 100%;
         height: auto;
         float: left;
     }
-    #renchart>li {
+
+    #renchart > li {
         width: 50%;
         height: auto;
         float: left;
         position: relative;
     }
-    #renchart>li>img {
+
+    #renchart > li > img {
         width: 100%;
         height: auto;
         float: left;
     }
+
     /*리뉴얼 하기전의 설명들*/
     #renewal_explain {
         width: 100%;
@@ -563,7 +655,8 @@
         display: none;
         background-color: #333333;
     }
-    #renewal_explain>li {
+
+    #renewal_explain > li {
         width: 100%;
         height: 100%;
         position: absolute;
@@ -573,6 +666,7 @@
         display: none;
         box-sizing: border-box;
     }
+
     /*리뉴얼 하기전의 설명중 타이틀*/
     .renewal_title {
         width: 100%;
@@ -580,13 +674,15 @@
         font-size: 20px;
         color: #cccccc;
     }
-    .renewalbe_sub>li {
+
+    .renewalbe_sub > li {
         width: 100%;
         text-align: left;
         color: #eaeaea;
         float: left;
         margin-top: 20px;
     }
+
     /*리뉴얼 전후의 색상구분표영역*/
     .renewalbe_sub p {
         width: auto;
@@ -594,6 +690,7 @@
         float: left;
         color: #eeeeee;
     }
+
     .renewalbe_sub span {
         display: block;
         width: auto;
@@ -601,6 +698,7 @@
         float: right;
         color: #eeeeee;
     }
+
     /*리뉴얼 전후의 색상구분표에서 span태그에 hover시 나타날색상박스*/
     #color_box {
         width: 20px;
@@ -608,11 +706,13 @@
         position: fixed;
         z-index: 99;
     }
+
     .blank {
         width: 70px;
         height: 18px;
         float: left;
     }
+
     .go_before {
         width: 80px;
         height: 20px;
@@ -623,6 +723,7 @@
         margin-top: 30px;
         cursor: pointer;
     }
+
     /*리뉴얼한후의 설명*/
     #renewalafter_explain {
         width: 100%;
@@ -633,7 +734,8 @@
         display: none;
         background-color: #333333;
     }
-    #renewalafter_explain>li {
+
+    #renewalafter_explain > li {
         width: 100%;
         height: 100%;
         position: absolute;
@@ -643,6 +745,7 @@
         padding: 30px;
         box-sizing: border-box;
     }
+
     .after_reference {
         width: auto;
         height: auto;
@@ -650,6 +753,7 @@
         bottom: 30px;
         right: 30px;
     }
+
     .go_after {
         width: 80px;
         height: 20px;
@@ -660,20 +764,23 @@
         float: left;
         cursor: pointer;
     }
+
     .go_after:last-child {
         margin-right: 0;
     }
+
     /*리뉴얼 아래의 버튼*/
     #pc_dot {
         width: 165px;
         height: 30px;
         position: absolute;
-        bottom: 30px;
+        bottom: -50px;
         left: 50%;
         transform: translateX(-50%);
         z-index: 9;
     }
-    #pc_dot>li {
+
+    #pc_dot > li {
         width: 30px;
         height: 30px;
         float: left;
@@ -682,61 +789,136 @@
         cursor: pointer;
         background-color: #cccccc;
     }
-    #pc_dot>li.dot_on {
+
+    #pc_dot > li.dot_on {
         background-color: #333333;
     }
-    #pc_dot>li:nth-child(4) {
+
+    #pc_dot > li:nth-child(4) {
         margin: 0;
     }
+
     /*다섯번째화면*/
     #lin {
         position: relative;
     }
+
     #thrid_pic {
         width: 66%;
         position: absolute;
-        left: 0;
+        right: 0;
         height: 100%;
         background: url(../imgs/display_5_1.png) no-repeat;
         background-attachment: fixed;
         background-size: cover;
     }
-    #lin>.title {
+
+    #lin > .title {
         color: #2d2d2d;
-        font-size: 120px;
-        text-align: right;
-        float: right;
-        margin-right: 115px;
+        font-size: 90px;
+        text-align: left;
+        float: none;
+        margin-left: 50px;
         font-weight: 900;
         margin-top: 10%;
     }
+
     #lin .line {
-        left: 1655px;
+        left: 404px;
         width: 245px;
     }
+
     #lin_list {
         width: 30%;
-        float: right;
-        margin-right: 115px;
         margin-top: 80px;
     }
-    #lin_list>li {
+
+    #lin_list > li {
         width: 100%;
         text-align: right;
         font-size: 30px;
-        float: left;
         line-height: 30px;
         margin-bottom: 65px;
         color: #2d2d2d;
     }
-    /*여섯번째 화면*/
+
+    /*수상내역*/
+    #reward {
+        background: url(../imgs/lawn.jpg) no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #list_rew {
+        width: 1140px;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 110px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #list_rew > li {
+        flex-basis: 360px;
+        height: 360px;
+        background-color: #efefef;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 50px;
+        box-shadow: 1px 1px 3px #333;
+    }
+
+    #list_rew > li > h2 {
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    #list_rew > li > h2.cap {
+        font-size: 1.625rem;
+        font-weight: 600;
+    }
+
+    #list_rew > li > img {
+        width: 50%;
+        height: auto;
+        position: absolute;
+        top: -30%;
+    }
+
+    #list_rew > li:last-child {
+        margin-top: -70px;
+    }
+
+    /*  #reward * {
+        font-size: 1.7rem;
+    }
+
+    
+
+    #list_rew > img {
+        width: 40%;
+        position: absolute;
+        top: -110px;
+        left: 50%;
+        transform: translateX(-50%);
+    }*/
+
+    /*슬로건 화면*/
     #slogan {
         background: url(../imgs/display_6.jpg) no-repeat left;
         background-size: cover;
     }
+
     #slogan .all_tie {
         margin: 0;
     }
+
     #slogan_title {
         width: 100%;
         height: auto;
@@ -744,24 +926,29 @@
         top: 50%;
         transform: translateY(-75%);
     }
-    #slogan_title>.title {
-        font-size: 110px;
+
+    #slogan_title > .title {
+        font-size: 18px;
         text-align: center;
         color: #fd9eb7;
+        margin-top: 250px;
     }
+
     #slogan .line {
-        width: 50px;
-        top: 75%;
+        width: 150px;
+        top: 85%;
         height: 5px;
         background-color: #fd9eb7;
     }
+
     #slo_sub {
         text-align: center;
         width: 100%;
-        font-size: 30px;
-        line-height: 30px;
+        font-size: 90px;
         margin-top: 30px;
+        margin-bottom: 0;
     }
+
     #slo_sub_sub {
         text-align: center;
         width: 100%;
@@ -769,10 +956,12 @@
         margin-top: 30px;
         color: #555555;
     }
+
     /*일곱번째 화면*/
     #contact {
         position: relative;
     }
+
     #con_pic {
         width: 66.6%;
         height: 100%;
@@ -783,15 +972,17 @@
         background-size: cover;
         overflow: hidden;
     }
-    #contact>.title {
+
+    #contact > .title {
         color: #2d2d2d;
-        font-size: 120px;
+        font-size: 90px;
         text-align: left;
         float: left;
-        margin-left: 115px;
+        margin-left: 65px;
         font-weight: 900;
         margin-top: 15%;
     }
+
     #contact .line {
         position: absolute;
         left: -100%;
@@ -799,6 +990,7 @@
         top: 50%;
         transform: translateY(-50%);
     }
+
     #windy {
         width: 100%;
         height: 100%;
@@ -813,6 +1005,7 @@
         animation-direction: alternate;
         animation-iteration-count: infinite;
     }
+
     #windy_1 {
         width: 100%;
         height: 100%;
@@ -828,35 +1021,43 @@
         animation-direction: alternate-reverse;
         animation-iteration-count: infinite;
     }
+
     @keyframes my {
         from {
             right: 70%;
         }
+
         50% {
             bottom: 100px;
         }
+
         to {
             right: -10%;
         }
     }
+
     @keyframes your {
         from {
             left: 0;
         }
+
         50% {
             top: 100px;
         }
+
         to {
             left: 80%;
         }
     }
+
     #contac_list {
         width: 30%;
         float: left;
         margin-left: 115px;
         margin-top: 80px;
     }
-    #contac_list>li {
+
+    #contac_list > li {
         width: 100%;
         text-align: left;
         font-size: 30px;
@@ -865,6 +1066,7 @@
         margin-bottom: 65px;
         color: #2d2d2d;
     }
+
     address {
         width: 100%;
         text-align: left;
@@ -882,14 +1084,17 @@
 }
 
 @media all and (max-width:1410px) and (min-width:1200px) {
+
     /*노트환경에서의 변화*/
     .all_tie {
         font-size: 50px;
     }
+
     #skill_mask {
         width: 100%;
         height: 520px;
     }
+
     #skill_chart {
         width: 100%;
         height: 100px;
@@ -897,106 +1102,130 @@
         padding: 0;
         margin-top: 365px;
     }
-    #skill_chart>li {
+
+    #skill_chart > li {
         width: 100px;
         height: 100%;
         background-size: cover;
         margin-right: 14.5%;
     }
+
     .reward {
         margin-top: -360px;
     }
+
     .graph {
         width: 70%;
         height: auto;
     }
-    .graph>img {
+
+    .graph > img {
         height: auto;
     }
+
     /*introdcue의 내용 글씨 크기 변환*/
-    #intro_list>li {
+    #intro_list > li {
         font-size: 28px;
     }
+
     #renewal_explain {
         height: 100%;
     }
+
     /*자격증 화면 전환*/
-    #lin>.title {
+    #lin > .title {
         margin-top: 10%;
         font-size: 80px;
         margin-right: 10.5%;
     }
+
     #lin_list {
         margin-top: 30px;
         margin-right: 10.5%;
     }
-    #lin_list>li {
+
+    #lin_list > li {
         margin-bottom: 30px;
         font-size: 20px;
     }
+
     /*스킬창에서의 전환*/
     #pc_mask {
         margin-top: 30px;
     }
+
     #pc_dot {
         width: 120px;
         height: 25px;
         bottom: 4.1%;
     }
-    #pc_dot>li {
+
+    #pc_dot > li {
         width: 25px;
         height: 25px;
         float: left;
         margin-right: 6px;
     }
-    #pc_dot>li:last-child {
+
+    #pc_dot > li:last-child {
         margin-right: 0;
     }
+
     /*리뉴얼에서 전환*/
     .after_reference {
         bottom: 15px;
     }
+
     /*contact me 전환*/
-    #contact>.title {
+    #contact > .title {
         margin-top: 10%;
         font-size: 80px;
         margin-left: 5.5%;
     }
+
     #contac_list {
         margin-top: 30px;
         margin-left: 5.5%;
     }
-    #contac_list>li {
+
+    #contac_list > li {
         margin-bottom: 45px;
         font-size: 20px;
     }
+
     .all_tie {
         font-size: 70px;
     }
+
     address {
         margin-left: 5%;
     }
 }
 
 @media all and (max-width:1322px) and (min-width:1200px) {
+
     /*introdcue의 내용 글씨 크기 변환*/
-    #intro_list>li {
+    #intro_list > li {
         font-size: 26px;
     }
-    #lin_list>li {
+
+    #lin_list > li {
         font-size: 18px;
     }
+
     #renewalafter_explain {
         height: 130%;
     }
 }
 
 @media all and (max-width:1236px) and (min-width:1200px) {
+
     /*introdcue의 내용 글씨 크기 변환*/
-    #intro_list>li {
+    #intro_list > li {
         font-size: 24px;
     }
-    #contac_list>li {
+
+    #contac_list > li {
         font-size: 20px;
     }
 }
