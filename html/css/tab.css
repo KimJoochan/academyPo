@@ -758,7 +758,7 @@
 
     #tab_profile_list {
         width: auto;
-        margin-left: 25%;
+        margin-left: 15%;
         margin-top: 40%;
     }
 
@@ -870,7 +870,7 @@
 
     /*자기소개 모바일일때*/
     #tab_profile_list > li {
-        font-size: 30px;
+        font-size: 2rem;
     }
 
     #tab_slo {
