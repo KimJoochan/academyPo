@@ -324,7 +324,7 @@
         window.open('http://deterrace.com/');
     });
     $('#youngsunafter').find('.go_page').click(function () {
-        alert("만료")
+        window.open('https://kimjoochan.github.io/academy2Youn/html/')
     });
     //리뉴얼후 경희실용음악학원 참고사이트
     $('#musicafter').find('.ref_1').click(function () {
